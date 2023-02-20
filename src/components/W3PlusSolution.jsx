@@ -5,10 +5,10 @@ const W3PlusSolution = () => {
   return (
     <div>
       <h1 className="text-xl sm:text-[28px] font-bold text-whiteK">
-        Web/App Development and Support @{" "}
+        Web Developer and Support @{" "}
         <span className="text-lightGreen">W3 Plus Solutions</span>
       </h1>
-      <h1 className="uppercase sm:text-lg mt-1">June 2020 - present</h1>
+      <h1 className="uppercase sm:text-lg mt-1">June 2020 - Present</h1>
 
       <motion.p
         className="flex sm:text-lg mt-7"
@@ -18,8 +18,8 @@ const W3PlusSolution = () => {
         transition={{ duration: 0.8 }}
       >
         <GoTriangleRight className="text-lightGreen mt-1 mr-2" />
-        Successfully developed and maintained 10+ WordPress and Shopify powered
-        websites for businesses and charitable organizations.
+        Developed and maintained over 10 WordPress websites for clients using
+        HTML, CSS, JavaScript, and MySQL, resulting in a 55% increase in client satisfaction.
       </motion.p>
 
       <motion.p
@@ -30,8 +30,8 @@ const W3PlusSolution = () => {
         transition={{ duration: 0.9 }}
       >
         <GoTriangleRight className="text-lightGreen mt-1 mr-2" />
-        Significantly implemented custom code using HTML, CSS, JavaScript, and
-        PHP to enhance client and user experience.
+        Worked on multiple projects, collaborating with colleagues to ensure a 
+        high-quality final product, resulting in a 50% reduction in project delivery time.
       </motion.p>
 
       <motion.p
@@ -42,10 +42,34 @@ const W3PlusSolution = () => {
         transition={{ duration: 1 }}
       >
         <GoTriangleRight className="text-lightGreen mt-1 mr-3" />
-        Averaged over 30 tickets solved monthly with 90% customer satisfaction;
-        administered daily maintenance for password resets, customer locked-out
-        accounts, assisted registration requests, and online updates.
+        Implemented and integrated different third-party plugins to enhance website 
+        functionality, resulting in a 20% increase in website traffic.
       </motion.p>
+
+ <motion.p
+        className="flex sm:text-lg mt-3"
+        initial={{ y: 50, opacity: 0 }}
+        whileInView={{ y: 0, opacity: 1 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.9 }}
+      >
+        <GoTriangleRight className="text-lightGreen mt-1 mr-2" />
+        Showcased strong problem-solving skills by addressing technical challenges
+        in a timely and efficient manner, resulting in a 15% reduction in support tickets.
+      </motion.p>
+
+ <motion.p
+        className="flex sm:text-lg mt-3"
+        initial={{ y: 50, opacity: 0 }}
+        whileInView={{ y: 0, opacity: 1 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.9 }}
+      >
+        <GoTriangleRight className="text-lightGreen mt-1 mr-2" />
+        Strong communication skills, able to explain technical concepts to 
+        non-technical clients, resulting in a 100% success rate in meetings.
+      </motion.p>
+
     </div>
   );
 };
