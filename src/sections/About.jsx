@@ -31,10 +31,10 @@ const About = () => {
             , and I enjoy creating things that live on the internet. I’m
             currently looking for entry level and junior roles in{" "}
             <span className="font-bold">
-              software engineering or development
+              the technical field
             </span>{" "}
-            (front end, back end, or full stack) where I can leverage everything
-            I’ve learned and get some hands-on experience.
+            where I can leverage everything I’ve learned and get some 
+            hands-on experience.
           </p>
 
           <p className="sm:text-22px text-justify mt-6">
@@ -97,7 +97,7 @@ const About = () => {
                 transition={{ duration: 0.8 }}
               >
                 <GoTriangleRight className="text-lightGreen" />
-                <h1 className="sm:text-lg mt-1">Next.js</h1>
+                <h1 className="sm:text-lg mt-1">Java</h1>
               </motion.div>
 
               <motion.div
@@ -108,7 +108,7 @@ const About = () => {
                 transition={{ duration: 0.9 }}
               >
                 <GoTriangleRight className="text-lightGreen" />
-                <h1 className="sm:text-lg mt-1">Java</h1>
+                <h1 className="sm:text-lg mt-1">Python</h1>
               </motion.div>
 
               <motion.div
@@ -119,7 +119,7 @@ const About = () => {
                 transition={{ duration: 1 }}
               >
                 <GoTriangleRight className="text-lightGreen" />
-                <h1 className="sm:text-lg mt-1">Python</h1>
+                <h1 className="sm:text-lg mt-1">SQL</h1>
               </motion.div>
 
               <motion.div
@@ -130,7 +130,7 @@ const About = () => {
                 transition={{ duration: 1.1 }}
               >
                 <GoTriangleRight className="text-lightGreen" />
-                <h1 className="sm:text-lg mt-1">SQL</h1>
+                <h1 className="sm:text-lg mt-1">AWS</h1>
               </motion.div>
             </div>
           </div>
@@ -143,9 +143,7 @@ const About = () => {
             great enthusiasm. Give me a problem and I will always try to solve
             it!
           </p>
-          <p className="sm:text-22px text-justify mt-6">
-            Outside of all this, I also play cricket and a lot of video games.
-          </p>
+          
         </div>
 
         <div>

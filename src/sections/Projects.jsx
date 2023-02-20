@@ -6,7 +6,7 @@ const projectData = [
   {
     id: 1,
     name: "Flight Deal Finder",
-    info: "An SMS alert on flight deals, by searching for cheap flights, and sending an SMS when the flight price drops.",
+    info: "An SMS alert on flight deals, that involves searching for cheap flights, and sending an SMS when the flight price drops.",
     tech: "Python",
     github: "https://github.com/kumaylm/FlightDealFinder",
   },
@@ -20,14 +20,14 @@ const projectData = [
   {
     id: 3,
     name: "Space Invaders",
-    info: "The classic shoot ’em up game, where your space ship can move left and right and it can hit some alien ships, every second the aliens will move closer to your ship, and once the aliens touch your ship then it’s game over.",
+    info: "The classic shoot 'em up game using Python Turtle, where your space ship can move and hit some alien ships. Every second the aliens move closer to your            ship, and the game ends once the aliens touch your ship.",
     tech: "Python",
     github: "https://github.com/kumaylm/SpaceInvaders",
   },
   {
     id: 4,
     name: "PDF to Audiobook",
-    info: "A script that takes a PDF file, identifies the text and converts the text to speech, effectively creating a free audiobook.",
+    info: "A script that takes a PDF file, identifies the text, and converts the text to speech, effectively creating a free audiobook.",
     tech: "Python",
     github: "https://github.com/kumaylm/PDFtoAudiobook",
   },
@@ -41,7 +41,7 @@ const projectData = [
   {
     id: 6,
     name: "Stock News Alert",
-    info: "Using APIs to check for stock price movements, get news articles, and send Telegram messages.",
+    info: "Using APIs to check for stock price movements, retrieve news articles, and send Telegram messages.",
     tech: "Python",
     github: "https://github.com/kumaylm/StockTradingNewsAlert",
   },
